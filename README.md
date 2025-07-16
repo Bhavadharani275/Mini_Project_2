@@ -63,11 +63,12 @@ To analyze bird species observations across forest and grassland ecosystems and 
 
 ## 📂 Project Structure
 
-- `db_config.py` — Database connection setup (MySQL)
-- `streamlit_app.py` — Main Streamlit app for visualization
-- `Bird_data_grassland_and_forest.ipynb` — Jupyter Notebook for preprocessing & MySQL data insertion
-- `data/` — Folder containing `.xlsx` and `.csv` files used
-- `requirements.txt` — Python dependencies
+- `db_config.py` — Contains database connection settings (MySQL)
+- `streamlit_app.py` — Main Streamlit application for interactive data visualization
+- `Bird_data_grassland_and_forest.ipynb` — Jupyter Notebook for data cleaning, preprocessing, and inserting processed data into MySQL
+- `.xlsx files` — Raw observational data for grassland and forest ecosystems used during preprocessing
+- `.csv files` — Combined and cleaned dataset exported from the .xlsx files and loaded into the database
+- `requirements.txt` — List of Python dependencies required to run the project
 
 ---
 
